@@ -1,1 +1,492 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
 
+  header,
+  main,
+  footer,
+  nav,
+  aside,
+  section {
+    display: block;
+  }
+ 
+   /* Set the margin for the #wrapper element */
+   body {
+    background-color: #FFFFFF;
+  }
+  
+  /* Remove the underline from all links */
+  a {
+    text-decoration: none;
+  }
+
+
+  /* Set the width and margin for the header element */
+  header {
+    width: 100%;
+    margin-top: 41px;
+    margin-top: 40px;
+  }
+  /* Set the background image and dimensions for the logo */
+  #logo {
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 40px;
+    top: 41px;
+    display: block;
+  }
+
+  /* Set all the font properties for span elements */
+  #logo span {
+    position: absolute;
+    width: 300px;
+    height: 33px;
+    left: 40px;
+       
+    
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    
+    letter-spacing: 0.25em;
+    
+    color: #3E3F43;
+        
+  }
+  /* Nav */
+  /* Add space above nav element */
+  nav {
+    margin-top: 26px;
+  }
+  
+  /* Set the font properties and color for the links in the nav */
+  nav a {
+    
+    font-style: normal;
+  }
+  
+  /* Set the hover(when mouse hovers over the element) color for links in the nav */
+  nav a:hover {
+    color: #1434e1;
+  }
+
+  /* Main */
+  /* Add space around images */
+  #cover-photo-section {
+    position: absolute;
+    width: 1200px;
+    height: 555px;
+    left: 0px;
+    top: 123px;
+
+    background: #F9BDBD;
+  }
+
+  #Rectangle {
+    position: absolute;
+    width: 278px;
+    height: 388px;
+    left: 40px;
+    top: 206px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+
+    background: #F7DEA6;
+
+  }
+
+  #image-about-me{
+    position: absolute;
+    width: 258px;
+    height: 306px;
+    left: 78px;
+    top: 288px;
+
+    background: url("../images/aboutme.png");
+  }
+
+  #main-sentence{
+    position: absolute;
+    width: 448px;
+    height: 98px;
+    left: 506px;
+    top: 206px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #3E3F43;
+  }
+
+  #second-sentence{
+    position: absolute;
+    width: 448px;
+    height: 66px;
+    left: 506px;
+    top: 320px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #000000;
+  }
+
+  #Pharagraph-about-me h1 {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 40px;
+    top: 702px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    
+    
+    
+    color: #000000;
+  }
+  #Pharagraph-about-me p{
+    position: absolute;
+    width: 741px;
+    height: 200px;
+    top: 766px;
+    left: 40px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140.62%;
+    
+
+    text-align: justify;
+
+    color: #000000;
+  }
+  
+  #Exercises{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 40px;
+    top: 1150px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height, or 133% */
+
+
+    color: #000000;
+
+  }
+
+  #box1{
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 40px;
+    top: 1214px;
+
+
+    background: #FDEDE5;;
+    border-radius: 20px;
+  }
+  
+  #box2{
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 264px;
+    top: 1214px;
+
+
+    background: #EBF1FF;
+    border-radius: 20px;
+  }
+  
+  #box3{
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 488px;
+    top: 1214px;
+
+
+    background: #EBFFEC;
+    border-radius: 20px;
+  }
+
+  #box4{
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 712px;
+    top: 1214px;
+
+
+    background: #FFEBFC;
+    border-radius: 20px;
+  }
+  #box5{
+    
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 936px;
+    top: 1214px;
+
+
+    background: #FFFEEB;;
+    border-radius: 20px;
+  }
+
+  .img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 24px;
+    top: 24px;
+    border-radius: 50px;
+  }
+  .exercise{
+    position: absolute;
+    width: 77px;
+    height: 24px;
+    left: 24px;
+    top: 128px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+
+  }
+  
+  .button{
+    position: absolute;
+    height: 40px;
+    left: 24px;
+    top: 184px;
+    
+    border-radius: 24px;
+  }
+
+  .view{
+    
+    position: absolute;
+    height: 24px;
+    left: 65.84px;
+    right:481.16;
+    top: 192px;
+
+    /* Product - Paragraph ∙ 14|24 / Medium */
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #171F46;
+  }
+
+  #programming-languages-section {
+    position: absolute;
+    width: 364px;
+    height: 40px;
+    left: 40px;
+    top: 1611px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+    /* identical to box height, or 133% */
+
+
+    color: #000000;
+
+  }
+  #programming-languages-section ul{
+    position: absolute;
+    Width :364px;
+    Height:141px;
+    Top:60px;
+    Left:40px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140.62%;
+    /* or 28px */
+
+    text-align: justify;
+
+    color: #000000;
+  }
+
+  #My-choise h1{
+    position: absolute;
+    width: 169px;
+    height: 40px;
+    left: 40px;
+    top: 1800px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height, or 133% */
+
+
+    color: #000000;
+  }
+  .photo{
+    position: absolute;
+    width: 1120px;
+    height: 508px;
+    left: 40px;
+    top: 1856px;
+
+    background: #F9BDBD;
+
+  }
+  
+  .photo img{
+    position: absolute;
+    left:50px;
+    top :50px;
+    width: 1000px;
+    height: 425px;
+  }
+ /* Footer */
+ footer {
+     
+    position: absolute;
+    width: 1200px;
+    height: 300px;
+    left: 0px;
+    top: 2500px;
+
+  }
+  footer img{
+    
+    position: absolute;
+
+  }
+  
+  #footer-links-section h2{
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    left: 40px;
+    top: 32px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #333333;
+
+  }
+  
+ .facebook {
+    
+    position: absolute;
+    width: 60px;
+    height: 19px;
+    left: 40px;
+    top: 80px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #8D8D8D;
+
+  }
+  .instagram {
+    
+    position: absolute;
+    width: 60px;
+    height: 19px;
+    left: 40px;
+    top: 120px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #8D8D8D;
+
+  }
+  .linkedin {
+    
+    position: absolute;
+    width: 60px;
+    height: 19px;
+    left: 40px;
+    top: 160px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #8D8D8D;
+  }
+  .copyright{
+    position: absolute;
+    width: 300px;
+    height: 19px;
+    left: 40px;
+    top: 220px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #8D8D8D;
+  }
+ 
