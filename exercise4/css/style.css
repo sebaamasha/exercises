@@ -1,1 +1,44 @@
 
+ .wrap-layer{
+    position: relative;
+ }
+ .text-layer{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 0;
+    left: 0;
+    padding: 30px;
+ }
+ .background-layer svg * {
+    transition: fill 1s ease;
+ }
+ .background-layer:hover #E1{fill: #404;}
+ .background-layer:hover #E2{fill: #505;}
+ .background-layer:hover #E3{fill: #606;}
+ .background-layer:hover #E4{fill: #707;}
+ .background-layer:hover #E5{fill: #808;}
+
+h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.whitebox{
+    position: absolute;
+    background-color: #efefc8;
+    height: 900px;
+    width: 800px;
+    left: 400px;
+    top: 50px;
+}
+
+.whitebox2{
+    position: absolute;
+    background-color: #efefc8;
+    height: 500px;
+    width: 500px;
+    left: 500px;
+    top: 150px;
+}
